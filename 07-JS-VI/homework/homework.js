@@ -68,18 +68,19 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   // ['ala','pelota','avion']
-  /* var nuevoArray = [];
+  var nuevoArray = [];
   for (let i = 0; i < array.length; i++) {
     if (array[i][0] === "a") {
       nuevoArray.push(array[i]);
     }
   }
-  return nuevoArray; */
-  var resultado = array.filter(function(palabra){
-    return palabra[0].toLowerCase() === "a" 
-  })
+  return nuevoArray;
+ /*  var resultado = array.filter(function(palabra){
+    return palabra[0] === "a" 
+  }) */
   
   return resultado
+ /*  return array.filter((e)=> e[0] === 'a') */
 }
 
 // ["ala", "avion",'Ala']
